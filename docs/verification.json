@@ -1,0 +1,23 @@
+{
+  "verified_on": "2026-10-23",
+  "sqlite": {
+    "result": "passed",
+    "tests": 30,
+    "passed": 30,
+    "assertions": 170
+  },
+  "mariadb": {
+    "result": "passed",
+    "tests": 30,
+    "passed": 30,
+    "assertions": 170
+  },
+  "concurrency": {
+    "last_item_checkout": "passed",
+    "same_stylist_slot": "passed"
+  },
+  "build": "passed",
+  "composer_validation": "passed",
+  "screenshots": 10,
+  "live_providers_tested": false
+}

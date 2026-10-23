@@ -1,0 +1,3 @@
+@extends('site.layout')
+@section('title',$page->title.' · '.$business->name)
+@section('content')<div class="page-heading"><span class="eyebrow">{{ $business->name }}</span><h1>{{ $page->title }}</h1></div><div class="panel prose">{{ $page->body }}</div>@if($page->slug==='gallery')<div class="gallery"><img src="/images/salon.svg" alt="Illustrated salon interior"><img src="/images/salon.svg" alt="Illustrated styling chair"><img src="/images/salon.svg" alt="Illustrated grooming space"></div><p class="muted">{{ __('Illustrations shown in this demo. Business owners can update their gallery content.') }}</p>@endif@endsection

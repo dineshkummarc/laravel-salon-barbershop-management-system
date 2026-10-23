@@ -1,0 +1,1 @@
+<x-filament-panels::page><x-filament::section heading="Choose your workspace" description="Owners can compare all branches or focus on one. Team members remain restricted to their assigned branch."><form wire:submit="save" class="space-y-6">{{ $this->form }}<x-filament::button type="submit">Open workspace</x-filament::button></form></x-filament::section></x-filament-panels::page>

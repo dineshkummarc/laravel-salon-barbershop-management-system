@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><body><h2>{{ $campaign->title }}</h2><p style="white-space:pre-line">{{ $campaign->body }}</p><hr><p>You received this because you opted in to this business's marketing. <a href="{{ $unsubscribe }}">Unsubscribe</a>.</p></body></html>
